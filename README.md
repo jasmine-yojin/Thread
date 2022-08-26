@@ -8,6 +8,7 @@
 
 <h2>Program Design</h2>
 This program demonstrates operating system’s ability to break down a big task into smaller tasks and delegate them among multiple threads. It is the “divide-and-conquer” approach. This program sums each number starting from 1 to 1000000 or whatever number a user designates. The user specifies how many child and grandchild threads to delegate for this summing task. The program equally divides the workload among the threads and puts them to work. An array keeps track of each child thread’s sum and the main/parent process totals them up to produce the final sum. Essentially, this program executes the following sequence summation formula:
+
 ![image](https://user-images.githubusercontent.com/44533760/186806292-cde8ea0e-7a2f-4cd9-893f-f80fcc2f3af5.png)
 
 Thread is a lightweight method for an operating system to complete multiple tasks simultaneously. The following code creates and runs threads using a for-loop. This was the heart of the program:
