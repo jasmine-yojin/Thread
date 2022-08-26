@@ -13,7 +13,7 @@ This program demonstrates operating system’s ability to break down a big task 
 
 Thread is a lightweight method for an operating system to complete multiple tasks simultaneously. The following code creates and runs threads using a for-loop. This was the heart of the program:<br>
 
-![image](https://user-images.githubusercontent.com/44533760/186806325-022448d2-59c8-4174-9f65-ac84e28315a4.png)
+![image](https://user-images.githubusercontent.com/44533760/186806325-022448d2-59c8-4174-9f65-ac84e28315a4.png)<br>
 ![image](https://user-images.githubusercontent.com/44533760/186806333-b482e879-f6ea-4382-9222-39a9e18b7de7.png)
 
 Once created, a thread executes a runner function that takes a single pointer parameter:<br>
