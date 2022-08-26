@@ -1,0 +1,13 @@
+Parent: Start of Execution
+Child thread number 1	 child start= 1	 end= 100000	 sum= 5000050000
+Child thread number 2	 child start= 100001	 end= 200000	 sum= 15000050000
+Child thread number 3	 child start= 200001	 end= 300000	 sum= 25000050000
+Child thread number 4	 child start= 300001	 end= 400000	 sum= 35000050000
+Child thread number 5	 child start= 400001	 end= 500000	 sum= 45000050000
+Child thread number 6	 child start= 500001	 end= 600000	 sum= 55000050000
+Child thread number 7	 child start= 600001	 end= 700000	 sum= 65000050000
+Child thread number 8	 child start= 700001	 end= 800000	 sum= 75000050000
+Child thread number 9	 child start= 800001	 end= 900000	 sum= 85000050000
+Child thread number 10	 child start= 900001	 end= 1000000	 sum= 95000050000
+Total sum is 500000500000
+Parent: End of Execution 500000500000
