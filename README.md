@@ -19,7 +19,7 @@ Thread is a lightweight method for an operating system to complete multiple task
 Once created, a thread executes a runner function that takes a single pointer parameter:<br>
 ![image](https://user-images.githubusercontent.com/44533760/186806346-4af0493c-7bcf-4c4f-8f55-d05d2e81836e.png)
 
-<hr2>Results with Child Threads</hr2>
+<h2>Results with Child Threads</h2>
 <pre>
 Parent: Start of Execution
 Child thread number 1	 child start= 1	 end= 100000	 sum= 5000050000
@@ -37,7 +37,7 @@ Parent: End of Execution 500000500000
 
 </pre>
 
-<h2>Results with Grandchild Threads</hr2>
+<h2>Results with Grandchild Threads</h2>
 <pre>
 Parent: Start of Execution
 Child thread number, 1	 GrandChild thread number:1	 grandchild start= 1	 grandchild end= 400	 grandchild Sum= 80200
